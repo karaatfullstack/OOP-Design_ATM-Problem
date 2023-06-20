@@ -43,19 +43,19 @@ The next step is turn that chat about the user stories into activity diagrams or
 
 #### Authentication Activity Diagram
 
-![Sample Authentication Activity Diagram](./authentication.png)
+![Sample Authentication Activity Diagram](./ATM-images/authentication.png)
 
 #### Balance Inquiry Activity Diagram
 
-![Sample Balance Inquiry Activity Diagram](./balance-inquiry.png)
+![Sample Balance Inquiry Activity Diagram](./ATM-images/balance-inquiry.png)
 
 #### Deposit Activity Diagram
 
-![Sample Deposit Activity Diagram](./deposit.png)
+![Sample Deposit Activity Diagram](./ATM-images/deposit.png)
 
 #### Withdraw Activity Diagram
 
-![Sample Withdraw Activity Diagram](./withdraw.png)
+![Sample Withdraw Activity Diagram](./ATM-images/withdraw.png)
 
 *Note 1*: Just as in the previous section, at least 2 (withdraw and deposit) would be fine here.
 
@@ -104,7 +104,7 @@ By this point, the board should be filled with a lot of references for the candi
     - Withdraw extends Transaction
 
 
-![Sample Class Diagram for an ATM](./full-atm.png)
+![Sample Class Diagram for an ATM](./ATM-images/full-atm.png)
 
 *Minimum Solution*:
 
@@ -115,7 +115,7 @@ By this point, the board should be filled with a lot of references for the candi
 - Deposit
 - Withdraw
 
-![Sample Minimum Class Diagram for an ATM](./minimum-atm.png)
+![Sample Minimum Class Diagram for an ATM](./ATM-images/minimum-atm.png)
 
 *Note 1*: A conversation point here is the transaction class. We can have this as a "main class" and deposit and withdraw can "extend" it. This can actually be extend (ha) to the account class. It can be the main class and savings and checking account can extend it. Encourage them to think about this by kind of throwing it out there: "For deposit, can't we generalize that somehow?" And start a conversation about it. Also, give a candidate room to defend themselves. You can absolutely challenge their notions but they can also defend their idea of why something may work. It's a viable solution to have deposit and withdraw as their own classes but one of the goals of OOP design is abstraction.
 
